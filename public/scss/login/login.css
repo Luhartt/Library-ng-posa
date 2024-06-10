@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url(../../../resources/images/backgrounds/login-register.png);
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section > div {
+  background-color: rgba(201, 201, 201, 0.38);
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2vw;
+}
+section h1, section label, section p, section a {
+  color: #FFFFFF;
+}
+section a {
+  text-decoration: underline;
+}
+section button {
+  background-color: #E1B0C2;
+  color: #000000;
+  border: none;
+  margin: 0 auto;
+  width: 20rem;
+  padding-block: 1rem;
+  border-radius: 10px;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+section button:hover {
+  background-color: #F0A8A8;
+}
+section form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+section div form input[type=password], section div form input[type=email] {
+  padding: 0.75rem;
+  width: 20rem;
+  border-radius: 8px;
+  border: none;
+  margin: 0.5rem 0 1rem 0;
+}
+section h1 {
+  margin: 5vh 0 6vh 0;
+}
+section p {
+  padding-block: 5rem;
+}/*# sourceMappingURL=login.css.map */
