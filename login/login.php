@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <section>
+            
+        </section>
+    </main>
 </body>
 </html>
