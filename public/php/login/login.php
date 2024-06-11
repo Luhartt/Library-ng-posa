@@ -20,9 +20,11 @@
                     <input type="email" name="email" id="email">
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password">
-                    <div> <input type="checkbox" name="remember" id="remember">
+                    <div class = "checkbox"> 
+                        <input type="checkbox" name="remember" id="remember">
                         <label for="remember">Remember Me</label>
                     </div>
+                    <p> Forgot Password? <a href="">Click Here</a></p>
                     <button type = "button">LOGIN</button>
                 </form>
                 <p>Want to read some books? <a href="#">Sign Up!</a></p>
