@@ -1,4 +1,5 @@
 @import "../../../assets/scss/reset.scss";
+@import "../../../resources/fonts/stylesheet.css";
 
 
 body{
@@ -21,18 +22,36 @@ section{
         width: fit-content;
         display: flex;
         flex-direction: column;
-        min-height: 50vh;
+        min-height: 40rem;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-inline: 2vw;
+        padding-inline: 3rem;
+        border-radius: 30px;
         
     }
 
+    div.checkbox{
+        display: flex;
+        align-items: center;
+    }
+
+
+
     h1, label, p, a{
         color: $text-color;
-       
+        font-family: 'Kross Neue Grotesk';
+    }
+
+    h1{
+        font-family: 'Kross Neue Grotesk Heavy';
+        font-size: 32px;
+
+    }   
+
+    label{
+        font-size: 15px;
     }
 
     a{
@@ -44,11 +63,12 @@ section{
         color: $button-text;
         border: none;
         margin: 0 auto;
-        width: 20rem;
+        width: 100%;
         padding-block: 1rem;
         border-radius: 10px;
-        margin-top: 4rem;
         cursor: pointer;
+        font-family: 'Kross Neue Grotesk Heavy';
+        font-size: 16px;
     }
 
     button:hover{
@@ -62,13 +82,28 @@ section{
         flex-direction: column;
     }
 
+    div form div label{
+        margin-left: 1rem;
+    }
+
+    input[type = 'checkbox']{
+        padding: 0;
+        margin: 0;
+
+    }
+
     div form input[type = 'password'],  div form input[type = 'email']{
-        padding: 0.75rem;
+        padding: 0.75rem 1rem;
         width: 20rem;
         border-radius: 8px;
         border: none;
-        margin:0.5rem 0 1rem 0;
-        
+        margin:0.5rem 0 2rem 0;        
+    }
+
+    div form input[type = 'password']:focus,  div form input[type = 'email']:focus{
+        outline: none;
+        background-color: rgb(163, 163, 163);
+        color: white;
     }
 
     h1{
@@ -76,9 +111,17 @@ section{
         margin: 5vh 0 6vh 0;
     }
 
-    p{
+    div > p{
         
-        padding-block: 5rem;
+        padding-block: 2.5rem;
+        font-size: 12px;
+    }
+
+    form>p{
+        padding-block: 2.5rem;
+        font-size: 12px;
+        margin: 0 auto;
+
     }
    
 

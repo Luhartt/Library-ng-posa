@@ -1,3 +1,4 @@
+@import "../../../resources/fonts/stylesheet.css";
 * {
   margin: 0;
   padding: 0;
@@ -28,15 +29,28 @@ section > div {
   width: fit-content;
   display: flex;
   flex-direction: column;
-  min-height: 50vh;
+  min-height: 40rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-inline: 2vw;
+  padding-inline: 3rem;
+  border-radius: 30px;
+}
+section div.checkbox {
+  display: flex;
+  align-items: center;
 }
 section h1, section label, section p, section a {
   color: #FFFFFF;
+  font-family: "Kross Neue Grotesk";
+}
+section h1 {
+  font-family: "Kross Neue Grotesk Heavy";
+  font-size: 32px;
+}
+section label {
+  font-size: 15px;
 }
 section a {
   text-decoration: underline;
@@ -46,11 +60,12 @@ section button {
   color: #000000;
   border: none;
   margin: 0 auto;
-  width: 20rem;
+  width: 100%;
   padding-block: 1rem;
   border-radius: 10px;
-  margin-top: 4rem;
   cursor: pointer;
+  font-family: "Kross Neue Grotesk Heavy";
+  font-size: 16px;
 }
 section button:hover {
   background-color: #F0A8A8;
@@ -61,16 +76,34 @@ section form {
   align-items: flex-start;
   flex-direction: column;
 }
+section div form div label {
+  margin-left: 1rem;
+}
+section input[type=checkbox] {
+  padding: 0;
+  margin: 0;
+}
 section div form input[type=password], section div form input[type=email] {
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   width: 20rem;
   border-radius: 8px;
   border: none;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0 2rem 0;
+}
+section div form input[type=password]:focus, section div form input[type=email]:focus {
+  outline: none;
+  background-color: rgb(163, 163, 163);
+  color: white;
 }
 section h1 {
   margin: 5vh 0 6vh 0;
 }
-section p {
-  padding-block: 5rem;
+section div > p {
+  padding-block: 2.5rem;
+  font-size: 12px;
+}
+section form > p {
+  padding-block: 2.5rem;
+  font-size: 12px;
+  margin: 0 auto;
 }/*# sourceMappingURL=login.css.map */
