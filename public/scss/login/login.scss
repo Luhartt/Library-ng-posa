@@ -85,6 +85,8 @@ section{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        min-width: 40vmin;
+        max-width: 45vmin;
     }
 
     div form div label{
@@ -115,7 +117,7 @@ section{
 
     h1{
 
-        margin: 5vh 0 6vh 0;
+        margin: 0 0 6vh 0;
     }
 
 }
