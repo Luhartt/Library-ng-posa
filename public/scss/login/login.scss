@@ -22,14 +22,12 @@ section{
         width: fit-content;
         display: flex;
         flex-direction: column;
-        min-height: 40rem;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-inline: 3rem;
-        border-radius: 30px;
-        
+        border-radius: 3vmin;      
+        padding: 7vmin 3vmin;
     }
 
     div.checkbox{
@@ -46,17 +44,24 @@ section{
 
     h1{
         font-family: 'Kross Neue Grotesk Heavy';
-        font-size: 32px;
-
+        font-size: 3vmin;
     }   
 
     label{
-        font-size: 15px;
+        font-size: 1.5vmin;
     }
 
     a{
         text-decoration: underline;
     }
+
+    p{
+        
+        padding-block: 4vmin;
+        font-size: 1.3vmin;
+        margin: 0 auto;
+    }
+
 
     button{
         background-color: $button-color;
@@ -64,11 +69,11 @@ section{
         border: none;
         margin: 0 auto;
         width: 100%;
-        padding-block: 1rem;
+        padding-block: 1.5vmin;
         border-radius: 10px;
         cursor: pointer;
         font-family: 'Kross Neue Grotesk Heavy';
-        font-size: 16px;
+        font-size: 1.5vmin;
     }
 
     button:hover{
@@ -80,24 +85,28 @@ section{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        min-width: 35vmin;
+        max-width: 45vmin;
     }
 
     div form div label{
-        margin-left: 1rem;
+        margin-left: 1vmin;
     }
 
     input[type = 'checkbox']{
         padding: 0;
         margin: 0;
+        height: 2vmin;
 
     }
 
     div form input[type = 'password'],  div form input[type = 'email']{
-        padding: 0.75rem 1rem;
-        width: 20rem;
-        border-radius: 8px;
+        padding: 1vmin 1.5vmin;
+        font-size: 1.5vmin;
+        width: 100%;
+        border-radius: 1vmin;
         border: none;
-        margin:0.5rem 0 2rem 0;        
+        margin:0.5vmin 0 3vmin 0;        
     }
 
     div form input[type = 'password']:focus,  div form input[type = 'email']:focus{
@@ -107,23 +116,8 @@ section{
     }
 
     h1{
-
-        margin: 5vh 0 6vh 0;
+        margin: 0 0 3vh 0;
     }
-
-    div > p{
-        
-        padding-block: 2.5rem;
-        font-size: 12px;
-    }
-
-    form>p{
-        padding-block: 2.5rem;
-        font-size: 12px;
-        margin: 0 auto;
-
-    }
-   
 
 }
 
