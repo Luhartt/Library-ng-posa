@@ -39,7 +39,7 @@ section{
 
     h1, label, p, a{
         color: $text-color;
-        font-family: 'Kross Neue Grotesk';
+        font-family: 'Kross Neue Grotesk Book';
     }
 
     h1{
@@ -67,9 +67,9 @@ section{
         background-color: $button-color;
         color: $button-text;
         border: none;
-        margin: 0 auto;
+        margin: 1vh auto;
         width: 100%;
-        padding-block: 1.5vmin;
+        padding-block: 2vmin;
         border-radius: 10px;
         cursor: pointer;
         font-family: 'Kross Neue Grotesk Heavy';
@@ -85,7 +85,7 @@ section{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        min-width: 35vmin;
+        min-width: 40vmin;
         max-width: 45vmin;
     }
 
@@ -116,7 +116,8 @@ section{
     }
 
     h1{
-        margin: 0 0 3vh 0;
+
+        margin: 0 0 10vh 0;
     }
 
 }
