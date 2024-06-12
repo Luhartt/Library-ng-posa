@@ -27,7 +27,7 @@ section{
         justify-content: center;
         align-items: center;
         border-radius: 3vmin;      
-        padding: 7vmin 3vmin;
+        padding: 7vmin 4vmin 3vmin 4vmin;
     }
 
     div.checkbox{
@@ -39,12 +39,12 @@ section{
 
     h1, label, p, a{
         color: $text-color;
-        font-family: 'Kross Neue Grotesk';
+        font-family: 'Kross Neue Grotesk Book';
     }
 
     h1{
         font-family: 'Kross Neue Grotesk Heavy';
-        font-size: 3vmin;
+        font-size: 3.5vmin;
     }   
 
     label{
@@ -67,7 +67,7 @@ section{
         background-color: $button-color;
         color: $button-text;
         border: none;
-        margin: 0 auto;
+        margin: 1vh auto;
         width: 100%;
         padding-block: 1.5vmin;
         border-radius: 10px;
@@ -85,7 +85,7 @@ section{
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        min-width: 35vmin;
+        min-width: 40vmin;
         max-width: 45vmin;
     }
 
@@ -116,7 +116,7 @@ section{
     }
 
     h1{
-        margin: 0 0 3vh 0;
+        margin: 0 0 10vh 0;
     }
 
 }

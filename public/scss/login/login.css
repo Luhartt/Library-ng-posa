@@ -34,7 +34,7 @@ section > div {
   justify-content: center;
   align-items: center;
   border-radius: 3vmin;
-  padding: 7vmin 3vmin;
+  padding: 7vmin 4vmin 3vmin 4vmin;
 }
 section div.checkbox {
   display: flex;
@@ -42,11 +42,11 @@ section div.checkbox {
 }
 section h1, section label, section p, section a {
   color: #FFFFFF;
-  font-family: "Kross Neue Grotesk";
+  font-family: "Kross Neue Grotesk Book";
 }
 section h1 {
   font-family: "Kross Neue Grotesk Heavy";
-  font-size: 3vmin;
+  font-size: 3.5vmin;
 }
 section label {
   font-size: 1.5vmin;
@@ -63,7 +63,7 @@ section button {
   background-color: #E1B0C2;
   color: #000000;
   border: none;
-  margin: 0 auto;
+  margin: 1vh auto;
   width: 100%;
   padding-block: 1.5vmin;
   border-radius: 10px;
@@ -79,7 +79,7 @@ section form {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  min-width: 35vmin;
+  min-width: 40vmin;
   max-width: 45vmin;
 }
 section div form div label {
@@ -104,5 +104,5 @@ section div form input[type=password]:focus, section div form input[type=email]:
   color: white;
 }
 section h1 {
-  margin: 0 0 3vh 0;
+  margin: 0 0 10vh 0;
 }/*# sourceMappingURL=login.css.map */
