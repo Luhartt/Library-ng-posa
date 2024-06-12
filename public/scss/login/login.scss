@@ -19,6 +19,7 @@ main{
 section{
     >div{
         background-color: rgba(201, 201, 201, 0.38);
+        width: -moz-fit-content;
         width: fit-content;
         display: flex;
         flex-direction: column;
