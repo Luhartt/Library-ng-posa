@@ -24,13 +24,17 @@ main {
 }
 
 section > div {
+  background-color: rgba(201, 201, 201, 0.38);
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   flex-direction: column;
-  min-width: 40vmin;
-  max-width: 40vmin;
-  min-height: 60vmin;
-  max-height: 65vmin;
-  background-color: rgba(201, 201, 201, 0.38);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3vmin;
+  padding: 7vmin 4vmin 3vmin 4vmin;
 }
 section div.checkbox {
   display: flex;
@@ -51,6 +55,7 @@ section a {
   text-decoration: underline;
 }
 section p {
+  padding-block: 4vmin;
   font-size: 1.3vmin;
   margin: 0 auto;
 }
@@ -100,4 +105,4 @@ section div form input[type=password]:focus, section div form input[type=email]:
 }
 section h1 {
   margin: 0 0 10vh 0;
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=register.css.map */
